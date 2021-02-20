@@ -9,7 +9,9 @@
   "keywords": [
     "Web",
     "Http",
-    "Client"
+    "Code",
+    "Status",
+    "Error"
   ],
   "author": "Yuxuan Xie <teststaybaka@gmail.com> (http://www.yuxuanxie.com)",
   "license": "GPL-3.0-or-later",
@@ -22,5 +24,8 @@
   "devDependencies": {
     "@selfage/tsconfig": "^1.0.3",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@selfage/nested_error": "^1.0.0"
   }
 }
