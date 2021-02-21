@@ -49,6 +49,7 @@ export class HttpError extends NestedError {
 
   constructor(public statusCode: number, message: string, public cause?: any) {
     super(message, cause);
+    this.stack = statusCode + ' ' + this.stack;
   }
 }
 

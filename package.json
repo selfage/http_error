@@ -1,7 +1,7 @@
 {
   "name": "@selfage/http_error",
   "version": "0.0.1",
-  "description": "Http-based client library for web pages.",
+  "description": "Error with HTTP status code.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selfage/http_error.git"
@@ -26,6 +26,6 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@selfage/nested_error": "^1.0.0"
+    "@selfage/nested_error": "^1.0.1"
   }
 }
