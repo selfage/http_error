@@ -1,6 +1,6 @@
 {
   "name": "@selfage/http_error",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Error with HTTP status code.",
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
     "url": "https://github.com/selfage/http_error/issues"
   },
   "homepage": "https://github.com/selfage/http_error#readme",
-  "main": "./http_error.js",
-  "types": "./http_error.d.ts",
+  "main": "./error.js",
+  "types": "./error.d.ts",
   "devDependencies": {
     "@selfage/tsconfig": "^1.0.3",
     "typescript": "^4.1.3"
