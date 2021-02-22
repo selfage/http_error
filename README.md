@@ -105,9 +105,9 @@ import {
 
 let e = newForbiddenError('Not allowed.');
 isClientError(e); // true
-isClientError(e.statusCode); // true
+isClientErrorCode(e.statusCode); // true
 isServerError(e); // false
-isServerError(e.statusCode); // false
+isServerErrorCode(e.statusCode); // false
 ```
 
 ## Caveats
