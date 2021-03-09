@@ -1,6 +1,6 @@
 {
   "name": "@selfage/http_error",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Error with HTTP status code.",
   "repository": {
     "type": "git",
@@ -22,12 +22,15 @@
   "homepage": "https://github.com/selfage/http_error#readme",
   "main": "./error.js",
   "types": "./error.d.ts",
-  "files": ["**/*.d.ts", "**/*.js"],
+  "files": [
+    "**/*.d.ts",
+    "**/*.js"
+  ],
   "devDependencies": {
     "@selfage/tsconfig": "^1.0.3",
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@selfage/nested_error": "^1.0.3"
+    "@selfage/nested_error": "^1.0.6"
   }
 }

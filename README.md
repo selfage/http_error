@@ -110,6 +110,10 @@ isServerError(e); // false
 isServerErrorCode(e.statusCode); // false
 ```
 
-## Caveats
+## Minification & subclass
 
-See [@selfage/nested_error#Caveats](https://github.com/selfage/nested_error#caveats).
+See [@selfage/nested_error#Minification](https://github.com/selfage/nested_error#minification).
+
+## Compatibility
+
+See [@selfage/nested_error#ompatibility](https://github.com/selfage/nested_error#compatibility).
