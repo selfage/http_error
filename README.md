@@ -125,6 +125,7 @@ Provides an implementation of test matcher to be used with `@selfage/test_matche
 ```TypeScript
 import { newForbiddenError } from '@selfage/http_error';
 import { eqHttpError } from '@selfage/http_error/test_matcher';
+import { assertThat } from '@selfage/test_matcher';
 
 let actualError = newForbiddenError('Some long message');
 assertThat(actualError, eqHttpError(newForbiddenError('long message')), `error`);
