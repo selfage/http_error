@@ -117,3 +117,15 @@ See [@selfage/nested_error#Minification](https://github.com/selfage/nested_error
 ## Compatibility
 
 See [@selfage/nested_error#ompatibility](https://github.com/selfage/nested_error#compatibility).
+
+## Test matcher
+
+Provides an implementation of test matcher to be used with `@selfage/test_matcher`.
+
+```TypeScript
+import { newForbiddenError } from '@selfage/http_error';
+import { eqHttpError } from '@selfage/http_error/test_matcher';
+
+let actualError = newForbiddenError('Some long message');
+assertThat(actualError, eqHttpError(newForbiddenError('long message')), `error`);
+```
